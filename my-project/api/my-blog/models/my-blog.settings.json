@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "My Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Categories": {
+      "type": "richtext"
+    }
+  },
+  "connection": "default",
+  "collectionName": "my_blogs"
+}

@@ -1,0 +1,29 @@
+.nav-wrapper { 
+    .left-side{
+        display: flex;
+        line-height: 1.42857143; 
+        text-align: justify;
+        justify-content: space-between;
+        background-color: darkred;
+
+        a{
+            justify-content: left;
+            cursor: pointer;
+            color: rgb(17, 16, 16);
+            list-style-type: none;
+            font-family:'Shadows Into Light', cursive;
+            font-size: 1.5rem;
+            font-weight: 600;
+            transition: 0.5 ease-in-out;
+            padding: 2vw;
+
+            &:hover {
+                color: white;
+
+        } 
+
+    
+    }
+}
+
+}
