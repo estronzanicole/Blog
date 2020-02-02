@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "MyLife": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "categories"
+}

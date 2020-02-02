@@ -13,7 +13,7 @@ class Blog extends Component {
 
     }
     getBlogItems() {
-        axios.get("http://localhost:1337/my-blogs/", {
+        axios.get("https://cors-anywhere.kerokuapp.com/https://stark-dusk-53991.herokuapp.com/my-blogs", {
             withCredentials: true
         }).then(response => {
             console.log("response", response)
@@ -26,7 +26,9 @@ class Blog extends Component {
         this.getBlogItems();
     }
 
+
     render() {
+
         return (
             <div>
 
